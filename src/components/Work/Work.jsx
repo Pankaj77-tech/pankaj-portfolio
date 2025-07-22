@@ -82,7 +82,7 @@ const Work = () => {
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
-                  className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
+                  className="w-[300px] h-[300px] object-contain rounded-xl shadow-2xl"
                 />
               </div>
               <div className="lg:p-8 p-6">
@@ -102,7 +102,7 @@ const Work = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-4">
+                {/* <div className="flex gap-4">
                   <a
                     href={selectedProject.github}
                     target="_blank"
@@ -119,7 +119,7 @@ const Work = () => {
                   >
                     View Live
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
